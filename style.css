@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&family=Outfit:wght@200;500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.headline {
+  font-family: 'Outfit', sans-serif;
+  font-size: 40px;
+  margin-bottom: 40px;
+  display: block;
+  color: white;
+  text-shadow: 2px 2px 2px grey;
+}
+
+.banner-text {
+  font-family: 'EB Garamond', serif;
+  font-size: 32px;
+  font-style: italic;
+  color: white;
+  text-shadow: 2px 2px 2px grey;
+}
+
+.banner {
+  background-image: url("https://source.unsplash.com/featured");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 160px 360px;
+/*   text-align: center; */
+}
+
+.container {
+  padding: 40px 360px 0px;
+}
+
+.container:last-of-type {
+  padding: 40px 360px;
+}
+
+.card-header {
+  font-family: 'Outfit', sans-serif;
+  font-weight: 200;
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: rgb(173, 173, 173);
+}
+
+.card-text {
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+}
+
+.link {
+  background-color: #dfe7fd;
+  color: grey;
+  font-family: 'EB Garamond', serif;
+  font-style: italic;
+  font-size: 24px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 40px 0px 0px;
+  transition-property: background-color;
+  transition-duration: 0.5s;
+}
+
+.link:hover {
+  background-color: #cddafd;
+}
